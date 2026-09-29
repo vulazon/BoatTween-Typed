@@ -1,0 +1,19 @@
+name = "vulazon/boattweentyped"
+version = "1.1.0"
+license = "MIT"
+authors = ["boatbeaker"]
+
+includes = [
+  "pesde.toml",
+  "LICENSE",
+  "README.md",
+  "src/**/*.luau",
+]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
