@@ -1,7 +1,9 @@
 name = "vulazon/boattweentyped"
-version = "1.1.0"
+version = "1.1.1"
 license = "MIT"
 authors = ["boatbeaker"]
+repository = "https://github.com/vulazon/BoatTween-Typed"
+private=false
 
 includes = [
   "pesde.toml",
