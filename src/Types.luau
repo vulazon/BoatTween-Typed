@@ -3,7 +3,7 @@ local Signal = require("./Signal")
 export type EasingStyle = "Linear"|"Quad"|"Cubic"|"Quart"|"Quint"|"Sine"|"Expo"|"Circ"|"Elastic"|"Back"|"Bounce"|"Smooth"|"Smoother"|"RidiculousWiggle"|"RevBack"|"Spring"|"SoftSpring"|"Standard"|"Sharp"|"Acceleration"|"Deceleration"|"StandardProductive"|"EntranceProductive"|"ExitProductive"|"StandardExpressive"|"EntranceExpressive"|"ExitExpressive"|"FabricStandard"|"FabricAccelerate"|"FabricDecelerate"|"UWPAccelerate"|"MozillaCurve"
 export type EasingDirection = "In"|"Out"|"InOut"|"OutIn"
 export type SupportedValues = number|boolean|CFrame|Color3|UDim2|UDim|Ray|NumberRange|NumberSequenceKeypoint|PhysicalProperties|NumberSequence|Region3|Rect|Vector2|Vector3
-export type StepType = "Heartbeat"|"Stepped"|"RenderStepped"
+export type StepType = "Heartbeat"|"Stepped"|"RenderStepped"|"PreRender"
 
 export type Data = {
     Time: number,
